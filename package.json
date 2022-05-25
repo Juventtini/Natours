@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Task Advanced CSS/SASS course",
+  "main": "index.js",
+  "scripts": {
+    "compile:css": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juventtini/Natours.git"
+  },
+  "author": "Serhii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juventtini/Natours/issues"
+  },
+  "homepage": "https://github.com/Juventtini/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
