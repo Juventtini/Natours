@@ -1,6 +1,5 @@
 .row {
-    max-width: $grid-width;
-    background-color: #eee;
+    max-width: $grid-width;    
     margin: 0 auto;
 
     &:not(:last-child) {
@@ -13,8 +12,7 @@
         clear: both;
     }
     
-    [class^="col-"] {
-        background-color: orangered;
+    [class^="col-"] {    
         float: left;
         &:not(:last-child) {
             margin-right: $grid-horizontal;
@@ -37,6 +35,6 @@
         width: calc(2*((100% - #{$grid-horizontal} * 3) / 4) + #{$grid-horizontal});        
     }
     .col-3-4 {
-        width: calc(3*((100% - #{$grid-horizontal} * 3) / 4) + (#{$grid-horizontal * 2)});        
+        width: calc(3*((100% - #{$grid-horizontal} * 3) / 4) + (#{$grid-horizontal} * 2));        
     }
 }
