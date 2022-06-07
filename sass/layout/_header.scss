@@ -10,6 +10,10 @@
     position: relative;
     color: $color-white;
 
+    @include respond(phone) {        
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+
     &__logo-box {
         position: absolute;
         top: 4rem;
@@ -39,7 +43,12 @@
         font-size: 6rem;
         font-weight: 400;
         letter-spacing: 3.5rem;
-        animation: movefromLeft 1s ease-out
+        animation: movefromLeft 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+        }
     }
 
     &__primary--sub {
@@ -48,6 +57,10 @@
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 1.75rem;
-        animation: movefromRight 1s ease-out
+        animation: movefromRight 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: .5rem;
+        }
     }
 }
