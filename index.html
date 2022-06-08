@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/icon-font.css">
@@ -47,12 +46,11 @@
                     <span class="header__primary--main">Outdoors</span>
                     <span class="header__primary--sub">is where life happens</span>
                 </h1>
-
                 <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
-
         <main>
+            
 
             <!--SECTION ABOUT-->
             <section class="section-about">
@@ -70,9 +68,27 @@
                     </div>
                     <div class="col-1-2">
                         <div class="composition">
-                            <img src="./img/nat-1-large.jpg" alt="Picture1" class="composition__picture composition__picture--1">
+                            <img srcset="./img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 1"
+                                 class="composition__picture composition__picture--1"
+                                 src="./img/nat-1-large.jpg">
+
+                            <img srcset="./img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 2"
+                                 class="composition__picture composition__picture--2"
+                                 src="./img/nat-2-large.jpg">
+
+                            <img srcset="./img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 3"
+                                 class="composition__picture composition__picture--3"
+                                 src="./img/nat-3-large.jpg">
+
+                            <!-- <img src="./img/nat-1-large.jpg" alt="Picture1" class="composition__picture composition__picture--1">
                             <img src="./img/nat-2-large.jpg" alt="Picture2" class="composition__picture composition__picture--2">
-                            <img src="./img/nat-3-large.jpg" alt="Picture3" class="composition__picture composition__picture--3">
+                            <img src="./img/nat-3-large.jpg" alt="Picture3" class="composition__picture composition__picture--3"> -->
                         </div>
                     </div>
                 </div>               

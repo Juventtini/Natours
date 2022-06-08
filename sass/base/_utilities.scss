@@ -1,8 +1,18 @@
 .u-center-text {text-align: center;}
 
 .u-margin-bottom-s {margin-bottom: 1.5rem !important; }
-.u-margin-bottom-m {margin-bottom: 4rem !important;}
-.u-margin-bottom-b {margin-bottom: 8rem !important;}
+.u-margin-bottom-m {
+    margin-bottom: 4rem !important;
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;
+    }
+}
+.u-margin-bottom-b {
+    margin-bottom: 8rem !important;
+    @include respond(tab-port) {
+        margin-bottom: 5rem !important;
+    }
+}
 .u-margin-bottom-xl {margin-bottom: 10rem !important;}
 
 
